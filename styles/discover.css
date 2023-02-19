@@ -42,10 +42,11 @@ body {
   font-size: 24px;
 }
 
-a,p {
-    text-decoration: none;
-    color: #ffffff;
-  }
+a,
+p {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
 ul[class],
@@ -80,57 +81,106 @@ select {
 /* HEADER PART */
 
 header {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-    width: 80%;
-    align-items: center;
-    display: inherit;
-    justify-content: space-between;
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  align-items: center;
+  display: inherit;
+  justify-content: space-between;
 }
 
 .header-main {
-    display: inline-flex;
-    align-items: center;
-    width: 230px;
-    justify-content: space-between;
+  display: inline-flex;
+  align-items: center;
+  width: 230px;
+  justify-content: space-between;
 }
 
 .header-logo {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .menu {
-    display: inline-flex;
-    width: 200px;
-    justify-content: space-between;
+  display: inline-flex;
+  width: 200px;
+  justify-content: space-between;
 }
 
+/* MAIN PART */
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1000px;
+  width: 80%;
+  margin: auto;
+  padding: auto;
+}
+
+.discover-article {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+}
+.new-music {
+  color: white;
+  font-size: 70px;
+}
+
+.img-menu {
+  display: inline-flex;
+  margin: auto;
+  padding: auto;
+}
+
+section > ul > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+  font-size: 48px;
+  margin: auto;
+  padding: auto;
+}
+
+.img-aside {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+}
 
 /* FOOTER PART */
 
 footer {
-    display: flex;
-    justify-content: center;
-    
-    background-color: #202027;
-    height: 118px;
+  display: flex;
+  justify-content: center;
+
+  background-color: #202027;
+  height: 118px;
 }
 
 div.menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 350px;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
 }
 
 .footer-url > .menu > li {
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 300px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 300px;
 }
