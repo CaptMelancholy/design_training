@@ -114,6 +114,43 @@ header {
   justify-content: space-between;
 }
 
+/* REGISTER PART */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+.welcomeBlock {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nowButton {
+    width: 200px;
+    height: 60px;
+    background-color: #C14A4A;
+    border: 1px solid #C14A4A;
+    border-radius: 5px;
+    color: white;
+}
+
+.welcomeBlock > h2 {
+    color:#ffffff;
+    font-size: 72px;
+}
+
+.welcomeBlock > p {
+    color:#ffffff;
+    font-size: 48px;
+}
+
 /* FOOTER PART */
 
 footer {
