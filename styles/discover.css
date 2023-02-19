@@ -138,9 +138,10 @@ header {
 }
 
 .img-menu {
-  display: inline-flex;
+  display: flex;
   margin: auto;
   padding: auto;
+  flex-wrap: wrap;
 }
 
 section > ul > img {

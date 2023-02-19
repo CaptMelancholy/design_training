@@ -120,7 +120,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: auto;
+  height: 1000px;
   width: 80%;
   margin: auto;
   padding: auto;
@@ -146,9 +146,10 @@ header {
 .img-menu {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: auto;
   padding: auto;
-  flex-wrap: wrap;
+  
 }
 
 section > ul > img {
